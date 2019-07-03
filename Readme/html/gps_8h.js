@@ -1,0 +1,37 @@
+var gps_8h =
+[
+    [ "NmeaGpsData_t", "gps_8h.html#struct_nmea_gps_data__t", [
+      [ "NmeaAltitude", "gps_8h.html#a692707d63fb873c69361070821827618", null ],
+      [ "NmeaAltitudeUnit", "gps_8h.html#a6abf6c205021dbc69857d76c789a2873", null ],
+      [ "NmeaDataStatus", "gps_8h.html#a67b576fd06628ca36e8dc3c87a1285b0", null ],
+      [ "NmeaDataType", "gps_8h.html#aef706aa1d1dd5501f4b0c42d07f854db", null ],
+      [ "NmeaDate", "gps_8h.html#a7e4ac3e06a47a6cb84d5e418d47486a9", null ],
+      [ "NmeaDetectionAngle", "gps_8h.html#a94a9d990505e3acfa0f963d980ce62be", null ],
+      [ "NmeaFixQuality", "gps_8h.html#a151e8c8a215b53ab17feeeb231d0be29", null ],
+      [ "NmeaHeightGeoid", "gps_8h.html#a5dd184c446d846eaacef730ba18da844", null ],
+      [ "NmeaHeightGeoidUnit", "gps_8h.html#aba5522637f36d9269bfcc35a976df64d", null ],
+      [ "NmeaHorizontalDilution", "gps_8h.html#ab2ed23275e1dd6207ec61f0216754aff", null ],
+      [ "NmeaLatitude", "gps_8h.html#ab695a4b2f817c97f9a6b1ca41609d648", null ],
+      [ "NmeaLatitudePole", "gps_8h.html#a71151a2c83a705a1f5011e0c74abe4b9", null ],
+      [ "NmeaLongitude", "gps_8h.html#ad729a193e66260f0c19c27ba8e37cce6", null ],
+      [ "NmeaLongitudePole", "gps_8h.html#ace6ccb67c2ed02c03012bc8a0dbfb672", null ],
+      [ "NmeaSatelliteTracked", "gps_8h.html#a3f3103e4bf6560e5a49c5e88fb53f243", null ],
+      [ "NmeaSpeed", "gps_8h.html#a52120ea2bd26045e377019fcee7a665c", null ],
+      [ "NmeaUtcTime", "gps_8h.html#afee56dc77969a63f6809c925ea622622", null ]
+    ] ],
+    [ "GpsConvertPositionFromStringToNumerical", "gps_8h.html#ab051facb42fdd30f78e0d60faec8de62", null ],
+    [ "GpsConvertPositionIntoBinary", "gps_8h.html#a8ccaffd05048de04603dafabc3ed6e78", null ],
+    [ "GpsFormatGpsData", "gps_8h.html#a10f772e875303bfa62b36cb17be6d29f", null ],
+    [ "GpsGetLatestGpsAltitude", "gps_8h.html#abc03011aca88fbe5cce1e9449a063b22", null ],
+    [ "GpsGetLatestGpsPositionBinary", "gps_8h.html#a2e5d4417107ba08652e5d7a6fa8e0f07", null ],
+    [ "GpsGetLatestGpsPositionDouble", "gps_8h.html#afb674c4179593480bbebc82d9c937626", null ],
+    [ "GpsGetPpsDetectedState", "gps_8h.html#a774192fce67cf9c426cf075f103d0294", null ],
+    [ "GpsHasFix", "gps_8h.html#a17dddc9070b707b45c7f78fdbbe76eba", null ],
+    [ "GpsInit", "gps_8h.html#aee2511acbf98bff3b4a34a8644ee7469", null ],
+    [ "GpsParseGpsData", "gps_8h.html#a3ce16118dc76f698ee5e1df5066912b1", null ],
+    [ "GpsPpsHandler", "gps_8h.html#a5071f6a5927876db2cb550f8492c84ff", null ],
+    [ "GpsProcess", "gps_8h.html#ad6c6730ed75d4c2115275468bc6f6b81", null ],
+    [ "GpsResetPosition", "gps_8h.html#a0c4b113091ca8ca6683d4904d015be28", null ],
+    [ "GpsStart", "gps_8h.html#a51e56414cc0d63fae834c4e7a26b86e9", null ],
+    [ "GpsStop", "gps_8h.html#a80e3242c8b76a364556a53e6ad82c923", null ]
+];

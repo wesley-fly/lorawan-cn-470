@@ -1,0 +1,9 @@
+.\obj\loramac-915\uart.o: ..\..\..\..\src\system\uart.c
+.\obj\loramac-915\uart.o: ..\..\..\..\src\boards\uart-board.h
+.\obj\loramac-915\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\loramac-915\uart.o: ..\..\..\..\src\system\uart.h
+.\obj\loramac-915\uart.o: ..\..\..\..\src\system\fifo.h
+.\obj\loramac-915\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\loramac-915\uart.o: ..\..\..\..\src\system\gpio.h
+.\obj\loramac-915\uart.o: ..\..\..\..\src\boards\pinName-board.h
+.\obj\loramac-915\uart.o: ..\..\..\..\src\boards\pinName-ioe.h

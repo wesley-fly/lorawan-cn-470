@@ -1,0 +1,16 @@
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\boards\NucleoL073\sx1276mb1las-board.c
+.\obj\loramac-915\sx1276mb1las-board.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\boards\utilities.h
+.\obj\loramac-915\sx1276mb1las-board.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\boards\NucleoL073\board-config.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\system\delay.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\radio\radio.h
+.\obj\loramac-915\sx1276mb1las-board.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\boards\sx1276-board.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\radio\sx1276/sx1276.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\system\gpio.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\boards\pinName-board.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\boards\pinName-ioe.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\system\spi.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\radio\sx1276/sx1276Regs-Fsk.h
+.\obj\loramac-915\sx1276mb1las-board.o: ..\..\..\..\src\radio\sx1276/sx1276Regs-LoRa.h
