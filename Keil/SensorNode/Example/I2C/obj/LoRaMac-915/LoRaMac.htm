@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\obj\LoRaMac-915\LoRaMac.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\obj\LoRaMac-915\LoRaMac.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Thu Jul 04 16:16:34 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Thu Jul 04 17:15:23 2019
 <BR><P>
 <H3>Maximum Stack Usage =        332 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -160,10 +160,11 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[25]"></a>main</STRONG> (Thumb, 102 bytes, Stack size 16 bytes, main.o(.text))
+<P><STRONG><a name="[25]"></a>main</STRONG> (Thumb, 142 bytes, Stack size 16 bytes, main.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 328<LI>Call Chain = main &rArr; UartConfig &rArr; UartMcuConfig &rArr; HAL_UART_Init &rArr; UART_SetConfig &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UartInit
+<BR>[Calls]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UartPutBuffer
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UartInit
 <LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UartConfig
 <LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2cInit
 <LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FifoInit
@@ -172,6 +173,8 @@ Global Symbols
 <LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Print_AMG8833_Data
 <LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_AMG8833_Data
 <LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitAMG8833
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
 </UL>
@@ -3019,7 +3022,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UartMcuPutBuffer
 </UL>
-<BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Print_AMG8833_Data
+<BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Print_AMG8833_Data
 <LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_AMG8833_Data
 <LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitAMG8833
 </UL>
@@ -3108,7 +3112,8 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[4e]"></a>strlen</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, strlen.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Print_AMG8833_Data
+<BR><BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Print_AMG8833_Data
 <LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_AMG8833_Data
 <LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitAMG8833
 </UL>
@@ -3412,7 +3417,8 @@ Global Symbols
 <P><STRONG><a name="[4d]"></a>__2sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2sprintf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Print_AMG8833_Data
+<BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Print_AMG8833_Data
 <LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_AMG8833_Data
 <LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitAMG8833
 </UL>
