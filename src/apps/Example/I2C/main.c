@@ -15,7 +15,7 @@ The SI7020_A20 is i2c interface humidity and temperature sensor.
 #include "i2c.h"
 #include "delay.h"
 
-#define I2C_ADDRESS                             0x40 <<1  //SI7020_A20 I2C address is 0x40(64) and 7-bit base slave address
+#define I2C_ADDRESS                             0x69 <<1  //SI7020_A20 I2C address is 0x40(64) and 7-bit base slave address
 
 #define HUMIDITY_ADDRESS                        0xE5      //humidity measurement command 0xF5
 #define TEMPERATURE_ADDRESS                     0xE3      //temperature measurement command 0xF3
@@ -28,10 +28,83 @@ uint8_t Uart1RxBuffer[FIFO_RX_SIZE];
 
 char str[20];
 
-uint8_t data[2] = {0};
+float PixelData[8][8] = {0};
 uint8_t txData = 0;
+#define AMG88xx_PIXEL_TEMP_CONVERSION .25
 
 static I2c_t I2c;
+
+void InitAMG8833(void)
+{
+	if(I2cWrite(&I2c, I2C_ADDRESS, 0x01, 0x3f)!= SUCCESS)
+    {
+        sprintf(str, "I2cWrite Fail 1!\r\n");
+        UartPutBuffer(&Uart1, (uint8_t *)str, strlen(str));
+    }
+	DelayMs(50);
+	if(I2cWrite(&I2c, I2C_ADDRESS, 0x02, 0x00)!= SUCCESS)
+    {
+        sprintf(str, "I2cWrite Fail 2!\r\n");
+        UartPutBuffer(&Uart1, (uint8_t *)str, strlen(str));
+    }
+}
+
+uint8_t Read_AMG8833_Data(void) 
+{
+	uint8_t i;
+	uint16_t absVal;
+	uint16_t readData;
+	float pixelData;
+	
+	uint8_t data[2] = {0};
+	
+	for (i = 0; i < 64; i++) 
+	{
+		if(I2cRead(&I2c, I2C_ADDRESS, 0x80+(i*2),(uint8_t *)data)!= SUCCESS)
+        {
+            sprintf(str, "I2cRead Fail!\r\n");
+            UartPutBuffer(&Uart1, (uint8_t *)str, strlen(str));
+        }
+		if(I2cRead(&I2c, I2C_ADDRESS, 0x80+(i*2)+1,(uint8_t *)data+1)!= SUCCESS)
+        {
+            sprintf(str, "I2cRead Fail!\r\n");
+            UartPutBuffer(&Uart1, (uint8_t *)str, strlen(str));
+        }
+
+		readData = data[1]<<8 | data[0];
+		absVal = (readData & 0x7FF);
+		
+ 		if((readData&0x800)==0x800){
+			pixelData = 0 - (float)absVal;
+		}
+		else
+		{
+			pixelData = (float)absVal;
+		}
+		
+		PixelData[i/8][i%8] = pixelData * AMG88xx_PIXEL_TEMP_CONVERSION;
+	}
+	
+	return 1;
+}
+void Print_AMG8833_Data(void)
+{
+	uint8_t i,j;
+	sprintf(str, "All PixelData:\n");
+    UartPutBuffer(&Uart1, (uint8_t *)str, strlen(str));
+	for (i = 0; i < 8; i++) 
+	{
+		for (j = 0; j < 8; j++) 
+		{
+			//UartPrint( "(%d) ", (int16_t)PixelData[i][j]);
+			sprintf(str, "(%.2f) ", PixelData[i][j]);
+		    UartPutBuffer(&Uart1, (uint8_t *)str, strlen(str));
+		}
+		sprintf(str, "\n");
+	    UartPutBuffer(&Uart1, (uint8_t *)str, strlen(str));
+	}
+	
+}
 
 /**
  * Main function
@@ -50,8 +123,17 @@ int main( void )
     UartConfig( &Uart1, RX_TX, 115200, UART_8_BIT, UART_1_STOP_BIT, NO_PARITY, NO_FLOW_CTRL );
     
     I2cInit( &I2c, I2C_1, I2C_SCL, I2C_SDA );
+	InitAMG8833();
 
-    while(1)
+	while(1)
+	{
+		Read_AMG8833_Data();
+		
+		Print_AMG8833_Data();
+
+		DelayMs(5000);
+	}
+    /*while(1)
     {			
         if(I2cWrite(&I2c, I2C_ADDRESS, HUMIDITY_ADDRESS,txData)!= SUCCESS)
         {
@@ -104,6 +186,6 @@ int main( void )
         UartPutBuffer(&Uart1, (uint8_t *)str, strlen(str));
         
         DelayMs(1000);
-    }
+    }*/
 }
 

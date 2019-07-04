@@ -406,13 +406,13 @@ ARM Macro Assembler    Page 7
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
 work --depend=.\obj\loramac-915\startup_stm32l073xx.d -o.\obj\loramac-915\start
-up_stm32l073xx.o -I.\RTE\_LoRaMac -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\I
-nclude -IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\S
-TM32L0xx\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include 
---predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 524" --pred
-efine="_RTE_ SETA 1" --predefine="STM32L073xx SETA 1" --list=.\lst\loramac-915\
-startup_stm32l073xx.lst ..\..\..\..\src\boards\NucleoL073\cmsis\arm-std\startup
-_stm32l073xx.s
+up_stm32l073xx.o -I.\RTE\_LoRaMac -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\C
+ore\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device
+\ST\STM32L0xx\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Inc
+lude --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 524" -
+-predefine="_RTE_ SETA 1" --predefine="STM32L073xx SETA 1" --list=.\lst\loramac
+-915\startup_stm32l073xx.lst ..\..\..\..\src\boards\NucleoL073\cmsis\arm-std\st
+artup_stm32l073xx.s
 
 
 

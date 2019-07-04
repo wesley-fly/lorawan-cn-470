@@ -2,7 +2,7 @@
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h
-.\obj\loramac-915\i2c-board.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\loramac-915\i2c-board.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h
@@ -14,7 +14,7 @@
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-.\obj\loramac-915\i2c-board.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\loramac-915\i2c-board.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h
@@ -39,7 +39,7 @@
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\utilities.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\NucleoL073\board-config.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\i2c-board.h
-.\obj\loramac-915\i2c-board.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\obj\loramac-915\i2c-board.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\system\i2c.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\system\gpio.h
 .\obj\loramac-915\i2c-board.o: ..\..\..\..\src\boards\pinName-board.h
