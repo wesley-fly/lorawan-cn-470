@@ -586,9 +586,9 @@
               <FilePath>..\..\..\..\src\mac\LoRaMac.c</FilePath>
             </File>
             <File>
-              <FileName>LoRaMacCrypto.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\..\..\..\src\mac\LoRaMacCrypto.lib</FilePath>
+              <FileName>LoRaMacCrypto.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\src\mac\LoRaMacCrypto.c</FilePath>
             </File>
           </Files>
         </Group>

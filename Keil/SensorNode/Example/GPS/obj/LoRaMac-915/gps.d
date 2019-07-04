@@ -1,0 +1,15 @@
+.\obj\loramac-915\gps.o: ..\..\..\..\src\apps\Example\GPS\gps.c
+.\obj\loramac-915\gps.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\obj\loramac-915\gps.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\obj\loramac-915\gps.o: ..\..\..\..\src\boards\board.h
+.\obj\loramac-915\gps.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\loramac-915\gps.o: ..\..\..\..\src\apps\Example\GPS\uart.h
+.\obj\loramac-915\gps.o: ..\..\..\..\src\system\fifo.h
+.\obj\loramac-915\gps.o: ..\..\..\..\src\system\gpio.h
+.\obj\loramac-915\gps.o: ..\..\..\..\src\boards\pinName-board.h
+.\obj\loramac-915\gps.o: ..\..\..\..\src\boards\pinName-ioe.h
+.\obj\loramac-915\gps.o: ..\..\..\..\src\apps\Example\GPS\gps.h
+.\obj\loramac-915\gps.o: ..\..\..\..\src\boards\utilities.h
+.\obj\loramac-915\gps.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
+.\obj\loramac-915\gps.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\loramac-915\gps.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\ctype.h

@@ -872,74 +872,60 @@ int main( void )
             case DEVICE_STATE_JOIN:
             {
 #if( OVER_THE_AIR_ACTIVATION != 0 )
-                MlmeReq_t mlmeReq;
+				MlmeReq_t mlmeReq;
 
-                uint8_t APP_KEY[32] = "11111111222222223333333344444444";//New Key    
-                                
-                /* Change the Application Key, Return: 0 is ok, 1 is fail*/
-                if(GemtekWriteOTAAKey(APP_KEY)!=0)
-                {
-                    //Write APPKey Fail!!
-                }
-                else
-                {
-                    //Write APPKey Success!!
-                }
-                
-                // Initialize LoRaMac device unique ID
-//                BoardGetUniqueId( DevEui );
-                GemtekGetOTAAConfig(DevEui,AppEui,AppKey);
-                
-                mlmeReq.Type = MLME_JOIN;
+				// Initialize LoRaMac device unique ID
+				//AcSiP(-), DevEui value is set by define currently
+				//BoardGetUniqueId( DevEui );
 
-                mlmeReq.Req.Join.DevEui = DevEui;
-                mlmeReq.Req.Join.AppEui = AppEui;
-                mlmeReq.Req.Join.AppKey = AppKey;
-                mlmeReq.Req.Join.Datarate = LORAWAN_DEFAULT_DATARATE;
+				mlmeReq.Type = MLME_JOIN;
 
-                if( LoRaMacMlmeRequest( &mlmeReq ) == LORAMAC_STATUS_OK )
-                {
-                    DeviceState = DEVICE_STATE_SLEEP;
-                } 
-                else
-                {
-                    DeviceState = DEVICE_STATE_CYCLE;
-                }
+				mlmeReq.Req.Join.DevEui = DevEui;
+				mlmeReq.Req.Join.AppEui = AppEui;
+				mlmeReq.Req.Join.AppKey = AppKey;
+				//mlmeReq.Req.Join.NbTrials = 3;
+
+				if( NextTx == true )
+				{
+					LoRaMacMlmeRequest( &mlmeReq );
+				}
+				DeviceState = DEVICE_STATE_SLEEP;
 #else
-                // Choose a random device address if not already defined in Commissioning.h
-                if( DevAddr == 0 )
-                {
-                    // Random seed initialization
-                    srand1( BoardGetRandomSeed( ) );
-                    
-                    GemtekLoRaMacKeyInit( );
-                    
-                    // Choose a random device address
-//                    DevAddr = randr( 0, 0x01FFFFFF );
-                    DevAddr = GemtekGetDevAddr( );
-                }
+				// Choose a random device address if not already defined in Commissioning.h
+				if( DevAddr == 0 )
+				{
+					// Random seed initialization
+					srand1( BoardGetRandomSeed( ) );
 
-                mibReq.Type = MIB_NET_ID;
-                mibReq.Param.NetID = LORAWAN_NETWORK_ID;
+					// Choose a random device address
+					DevAddr = randr( 0, 0x01FFFFFF );
+				}
+
+				mibReq.Type = MIB_NET_ID;
+				mibReq.Param.NetID = LORAWAN_NETWORK_ID;
+				LoRaMacMibSetRequestConfirm( &mibReq );
+
+				mibReq.Type = MIB_DEV_ADDR;
+				mibReq.Param.DevAddr = DevAddr;
+				LoRaMacMibSetRequestConfirm( &mibReq );
+
+				mibReq.Type = MIB_NWK_SKEY;
+				mibReq.Param.NwkSKey = NwkSKey;
+				LoRaMacMibSetRequestConfirm( &mibReq );
+
+				mibReq.Type = MIB_APP_SKEY;
+				mibReq.Param.AppSKey = AppSKey;
+				LoRaMacMibSetRequestConfirm( &mibReq );
+
+				mibReq.Type = MIB_NETWORK_JOINED;
+				mibReq.Param.IsNetworkJoined = true;
+				LoRaMacMibSetRequestConfirm( &mibReq );
+
+				mibReq.Type = MIB_DEVICE_CLASS;
+                mibReq.Param.Class = CLASS_A;
                 LoRaMacMibSetRequestConfirm( &mibReq );
 
-                mibReq.Type = MIB_DEV_ADDR;
-                mibReq.Param.DevAddr = DevAddr;
-                LoRaMacMibSetRequestConfirm( &mibReq );
-
-//                mibReq.Type = MIB_NWK_SKEY;
-//                mibReq.Param.NwkSKey = NwkSKey;
-//                LoRaMacMibSetRequestConfirm( &mibReq );
-
-//                mibReq.Type = MIB_APP_SKEY;
-//                mibReq.Param.AppSKey = AppSKey;
-//                LoRaMacMibSetRequestConfirm( &mibReq );
-
-                mibReq.Type = MIB_NETWORK_JOINED;
-                mibReq.Param.IsNetworkJoined = true;
-                LoRaMacMibSetRequestConfirm( &mibReq );
-
-                DeviceState = DEVICE_STATE_SEND;
+				DeviceState = DEVICE_STATE_SEND;
 #endif
                 break;
             }

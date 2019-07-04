@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\obj\LoRaMac-915\LoRaMac.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\obj\LoRaMac-915\LoRaMac.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Wed Jun 12 11:52:44 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Thu Jul 04 11:24:14 2019
 <BR><P>
 <H3>Maximum Stack Usage =        436 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -2664,10 +2664,10 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BoardEnableIrq
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BoardDisableIrq
+<LI><a href="#[19a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerGetValue
 <LI><a href="#[19b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerExists
 <LI><a href="#[199]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerInsertNewHeadTimer
 <LI><a href="#[19c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerInsertTimer
-<LI><a href="#[19a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerGetValue
 </UL>
 <BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX1276SetTxContinuousWave
 <LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX1276SetRx
@@ -2682,8 +2682,8 @@ Global Symbols
 <P><STRONG><a name="[d8]"></a>TimerIrqHandler</STRONG> (Thumb, 144 bytes, Stack size 16 bytes, timer.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 276<LI>Call Chain = TimerIrqHandler &rArr; TimerSetTimeout &rArr; RtcSetTimeout &rArr; RtcStartWakeUpAlarm &rArr; RtcComputeTimerTimeToAlarmTick &rArr; __aeabi_idivmod &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[197]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetTimeout
-<LI><a href="#[19a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerGetValue
+<BR>[Calls]<UL><LI><a href="#[19a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerGetValue
+<LI><a href="#[197]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetTimeout
 </UL>
 <BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTC_IRQHandler
 </UL>
@@ -2693,8 +2693,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BoardEnableIrq
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BoardDisableIrq
-<LI><a href="#[197]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetTimeout
 <LI><a href="#[19a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerGetValue
+<LI><a href="#[197]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetTimeout
 </UL>
 <BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX1276SetStby
 <LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX1276SetSleep
@@ -3046,9 +3046,9 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_llsl
 </UL>
 <BR>[Called By]<UL><LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[1aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 <LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
 <LI><a href="#[1b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drnd
-<LI><a href="#[1aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
 
 <P><STRONG><a name="[22d]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llshl.o(.text), UNUSED)
@@ -3058,9 +3058,9 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
 <LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2iz
+<LI><a href="#[1aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 <LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
 <LI><a href="#[1b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drnd
-<LI><a href="#[1aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
 
 <P><STRONG><a name="[22e]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llushr.o(.text), UNUSED)
@@ -3088,8 +3088,8 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
-<LI><a href="#[1b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drnd
 <LI><a href="#[1aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<LI><a href="#[1b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drnd
 </UL>
 
 <P><STRONG><a name="[1aa]"></a>_double_epilogue</STRONG> (Thumb, 164 bytes, Stack size 48 bytes, depilogue.o(.text))

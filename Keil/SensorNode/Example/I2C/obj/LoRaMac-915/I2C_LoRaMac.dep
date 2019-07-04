@@ -1,0 +1,1458 @@
+Dependencies for Project 'I2C', Target 'LoRaMac': (DO NOT MODIFY !)
+F (..\..\..\..\src\apps\Example\I2C\main.c)(0x5D1D629F)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\main.o --omf_browse .\obj\loramac-915\main.crf --depend .\obj\loramac-915\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\..\..\..\src\boards\board.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\system\uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\fifo.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\board-config.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\delay.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\adc-board.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\adc-board.o --omf_browse .\obj\loramac-915\adc-board.crf --depend .\obj\loramac-915\adc-board.d)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\board-config.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\adc-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\board.c)(0x5D1C7716)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\board.o --omf_browse .\obj\loramac-915\board.crf --depend .\obj\loramac-915\board.d)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\delay.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+I (..\..\..\..\src\peripherals\gpio-ioe.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\fifo.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\boards\NucleoL073\board-config.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\rtc-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\sx1276-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\sx1276/sx1276.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\sx1276/sx1276Regs-Fsk.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\sx1276/sx1276Regs-LoRa.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\board.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\delay-board.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\delay-board.o --omf_browse .\obj\loramac-915\delay-board.crf --depend .\obj\loramac-915\delay-board.d)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\delay-board.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\eeprom-board.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\eeprom-board.o --omf_browse .\obj\loramac-915\eeprom-board.crf --depend .\obj\loramac-915\eeprom-board.d)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\eeprom-board.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\gpio-board.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\gpio-board.o --omf_browse .\obj\loramac-915\gpio-board.crf --depend .\obj\loramac-915\gpio-board.d)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\board-config.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\rtc-board.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\boards\gpio-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\i2c-board.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\i2c-board.o --omf_browse .\obj\loramac-915\i2c-board.crf --depend .\obj\loramac-915\i2c-board.d)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\board-config.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\i2c-board.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\rtc-board.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\rtc-board.o --omf_browse .\obj\loramac-915\rtc-board.crf --depend .\obj\loramac-915\rtc-board.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\board.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\fifo.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\boards\rtc-board.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\spi-board.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\spi-board.o --omf_browse .\obj\loramac-915\spi-board.crf --depend .\obj\loramac-915\spi-board.d)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\board.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\fifo.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\spi-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\spi.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\uart-board.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\uart-board.o --omf_browse .\obj\loramac-915\uart-board.crf --depend .\obj\loramac-915\uart-board.d)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\board.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\fifo.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\uart-board.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\sx1276mb1las-board.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\sx1276mb1las-board.o --omf_browse .\obj\loramac-915\sx1276mb1las-board.crf --depend .\obj\loramac-915\sx1276mb1las-board.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\NucleoL073\board-config.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\delay.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\boards\sx1276-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\sx1276/sx1276.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\sx1276/sx1276Regs-Fsk.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\sx1276/sx1276Regs-LoRa.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\NucleoL073\cmsis\arm-std\startup_stm32l073xx.s)(0x5B6BE89C)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32L073xx SETA 1"--list .\lst\loramac-915\startup_stm32l073xx.lst --xref -o .\obj\loramac-915\startup_stm32l073xx.o --depend .\obj\loramac-915\startup_stm32l073xx.d)
+F (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.c)(0x5D1C77E4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\system_stm32l0xx.o --omf_browse .\obj\loramac-915\system_stm32l0xx.crf --depend .\obj\loramac-915\system_stm32l0xx.d)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c)(0x5D1C789E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal.o --omf_browse .\obj\loramac-915\stm32l0xx_hal.crf --depend .\obj\loramac-915\stm32l0xx_hal.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_adc.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_adc.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_adc.crf --depend .\obj\loramac-915\stm32l0xx_hal_adc.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_adc_ex.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_adc_ex.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_adc_ex.crf --depend .\obj\loramac-915\stm32l0xx_hal_adc_ex.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_cortex.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_cortex.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_cortex.crf --depend .\obj\loramac-915\stm32l0xx_hal_cortex.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_dma.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_dma.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_dma.crf --depend .\obj\loramac-915\stm32l0xx_hal_dma.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_gpio.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_gpio.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_gpio.crf --depend .\obj\loramac-915\stm32l0xx_hal_gpio.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_i2c.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_i2c.crf --depend .\obj\loramac-915\stm32l0xx_hal_i2c.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c_ex.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_i2c_ex.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_i2c_ex.crf --depend .\obj\loramac-915\stm32l0xx_hal_i2c_ex.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_pwr.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_pwr.crf --depend .\obj\loramac-915\stm32l0xx_hal_pwr.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr_ex.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_pwr_ex.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_pwr_ex.crf --depend .\obj\loramac-915\stm32l0xx_hal_pwr_ex.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_rcc.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_rcc.crf --depend .\obj\loramac-915\stm32l0xx_hal_rcc.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc_ex.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_rcc_ex.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_rcc_ex.crf --depend .\obj\loramac-915\stm32l0xx_hal_rcc_ex.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rtc.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_rtc.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_rtc.crf --depend .\obj\loramac-915\stm32l0xx_hal_rtc.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rtc_ex.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_rtc_ex.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_rtc_ex.crf --depend .\obj\loramac-915\stm32l0xx_hal_rtc_ex.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_spi.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_spi.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_spi.crf --depend .\obj\loramac-915\stm32l0xx_hal_spi.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_uart.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_uart.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_uart.crf --depend .\obj\loramac-915\stm32l0xx_hal_uart.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_uart_ex.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_uart_ex.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_uart_ex.crf --depend .\obj\loramac-915\stm32l0xx_hal_uart_ex.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_flash.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_flash.crf --depend .\obj\loramac-915\stm32l0xx_hal_flash.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ex.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_flash_ex.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_flash_ex.crf --depend .\obj\loramac-915\stm32l0xx_hal_flash_ex.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_iwdg.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\stm32l0xx_hal_iwdg.o --omf_browse .\obj\loramac-915\stm32l0xx_hal_iwdg.crf --depend .\obj\loramac-915\stm32l0xx_hal_iwdg.d)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx_hal_conf.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\mxconstants.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\stm32l073xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cm0plus.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmInstr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\cmsis_armcc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\cmsis\core_cmFunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\NucleoL073\cmsis\system_stm32l0xx.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_usart_ex.h)(0x5B6BE89C)
+F (..\..\..\..\src\boards\mcu\stm32\sysIrqHandlers.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\sysirqhandlers.o --omf_browse .\obj\loramac-915\sysirqhandlers.crf --depend .\obj\loramac-915\sysirqhandlers.d)
+F (..\..\..\..\src\boards\mcu\utilities.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\utilities.o --omf_browse .\obj\loramac-915\utilities.crf --depend .\obj\loramac-915\utilities.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (..\..\..\..\src\mac\LoRaMac.c)(0x5D1C72E4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\loramac.o --omf_browse .\obj\loramac-915\loramac.crf --depend .\obj\loramac-915\loramac.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMacCrypto.h)(0x5D1C6F40)
+I (..\..\..\..\src\mac\LoRaMacTest.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\LoRaMacCrypto.c)(0x5D1C6F6C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\loramaccrypto.o --omf_browse .\obj\loramac-915\loramaccrypto.crf --depend .\obj\loramac-915\loramaccrypto.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\crypto\aes.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\crypto\cmac.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMacCrypto.h)(0x5D1C6F40)
+F (..\..\..\..\src\mac\region\Region.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\region.o --omf_browse .\obj\loramac-915\region.crf --depend .\obj\loramac-915\region.d)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionEU868.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\region\RegionCommon.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regioncommon.o --omf_browse .\obj\loramac-915\regioncommon.crf --depend .\obj\loramac-915\regioncommon.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\region\RegionAS923.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regionas923.o --omf_browse .\obj\loramac-915\regionas923.crf --depend .\obj\loramac-915\regionas923.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionAS923.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\region\RegionAU915.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regionau915.o --omf_browse .\obj\loramac-915\regionau915.crf --depend .\obj\loramac-915\regionau915.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionAU915.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\region\RegionCN470.c)(0x5D1C65E6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regioncn470.o --omf_browse .\obj\loramac-915\regioncn470.crf --depend .\obj\loramac-915\regioncn470.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionCN470.h)(0x5D1C65A6)
+F (..\..\..\..\src\mac\region\RegionCN779.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regioncn779.o --omf_browse .\obj\loramac-915\regioncn779.crf --depend .\obj\loramac-915\regioncn779.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionCN779.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\region\RegionEU433.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regioneu433.o --omf_browse .\obj\loramac-915\regioneu433.crf --depend .\obj\loramac-915\regioneu433.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionEU433.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\region\RegionEU868.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regioneu868.o --omf_browse .\obj\loramac-915\regioneu868.crf --depend .\obj\loramac-915\regioneu868.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionEU868.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\region\RegionIN865.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regionin865.o --omf_browse .\obj\loramac-915\regionin865.crf --depend .\obj\loramac-915\regionin865.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionIN865.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\region\RegionKR920.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regionkr920.o --omf_browse .\obj\loramac-915\regionkr920.crf --depend .\obj\loramac-915\regionkr920.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionKR920.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\region\RegionUS915.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regionus915.o --omf_browse .\obj\loramac-915\regionus915.crf --depend .\obj\loramac-915\regionus915.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionUS915.h)(0x5B6BE89C)
+F (..\..\..\..\src\mac\region\RegionUS915-Hybrid.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\regionus915-hybrid.o --omf_browse .\obj\loramac-915\regionus915-hybrid.crf --depend .\obj\loramac-915\regionus915-hybrid.d)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\mac\region\RegionCommon.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\LoRaMac.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region/Region.h)(0x5B6BE89C)
+I (..\..\..\..\src\mac\region\RegionUS915-Hybrid.h)(0x5B6BE89C)
+F (..\..\..\..\src\radio\sx1276\sx1276.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\sx1276.o --omf_browse .\obj\loramac-915\sx1276.crf --depend .\obj\loramac-915\sx1276.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\radio\radio.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\delay.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\sx1276\sx1276.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\spi.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\sx1276\sx1276Regs-Fsk.h)(0x5B6BE89C)
+I (..\..\..\..\src\radio\sx1276\sx1276Regs-LoRa.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\sx1276-board.h)(0x5B6BE89C)
+F (..\..\..\..\src\system\adc.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\adc.o --omf_browse .\obj\loramac-915\adc.crf --depend .\obj\loramac-915\adc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\boards\adc-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\adc.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+F (..\..\..\..\src\system\delay.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\delay.o --omf_browse .\obj\loramac-915\delay.crf --depend .\obj\loramac-915\delay.d)
+I (..\..\..\..\src\boards\delay-board.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\system\delay.h)(0x5B6BE89C)
+F (..\..\..\..\src\system\fifo.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\fifo.o --omf_browse .\obj\loramac-915\fifo.crf --depend .\obj\loramac-915\fifo.d)
+I (..\..\..\..\src\system\fifo.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (..\..\..\..\src\system\gpio.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\gpio.o --omf_browse .\obj\loramac-915\gpio.crf --depend .\obj\loramac-915\gpio.d)
+I (..\..\..\..\src\boards\gpio-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+F (..\..\..\..\src\system\i2c.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\i2c.o --omf_browse .\obj\loramac-915\i2c.crf --depend .\obj\loramac-915\i2c.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\boards\i2c-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\i2c.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+F (..\..\..\..\src\system\timer.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\timer.o --omf_browse .\obj\loramac-915\timer.crf --depend .\obj\loramac-915\timer.d)
+I (..\..\..\..\src\boards\board.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\system\uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\fifo.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\rtc-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\timer.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+F (..\..\..\..\src\system\uart.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\uart.o --omf_browse .\obj\loramac-915\uart.crf --depend .\obj\loramac-915\uart.d)
+I (..\..\..\..\src\boards\uart-board.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\system\uart.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\fifo.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\..\..\..\src\system\gpio.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-board.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\pinName-ioe.h)(0x5B6BE89C)
+F (..\..\..\..\src\system\eeprom.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\eeprom.o --omf_browse .\obj\loramac-915\eeprom.crf --depend .\obj\loramac-915\eeprom.d)
+I (..\..\..\..\src\boards\eeprom-board.h)(0x5B6BE89C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\system\eeprom.h)(0x5B6BE89C)
+F (..\..\..\..\src\system\crypto\aes.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\aes.o --omf_browse .\obj\loramac-915\aes.crf --depend .\obj\loramac-915\aes.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\system\crypto\aes.h)(0x5B6BE89C)
+F (..\..\..\..\src\system\crypto\cmac.c)(0x5B6BE89C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\..\..\src -I ..\..\..\..\src\boards\ -I ..\..\..\..\src\boards\mcu\stm32 -I ..\..\..\..\src\boards\mcu\stm32\cmsis -I ..\..\..\..\src\boards\mcu\stm32\STM32L0xx_HAL_Driver\Inc -I ..\..\..\..\src\boards\NucleoL073 -I ..\..\..\..\src\boards\NucleoL073\cmsis -I ..\..\..\..\src\mac -I ..\..\..\..\src\mac\region -I ..\..\..\..\src\peripherals -I ..\..\..\..\src\radio -I ..\..\..\..\src\system -I ..\..\..\..\src\system\crypto-I.\RTE\_LoRaMac-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx -DUSE_DEBUGGER -DREGION_EU868 -DHSE_VALUE="24000000"-o .\obj\loramac-915\cmac.o --omf_browse .\obj\loramac-915\cmac.crf --depend .\obj\loramac-915\cmac.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\src\system\crypto\aes.h)(0x5B6BE89C)
+I (..\..\..\..\src\system\crypto\cmac.h)(0x5B6BE89C)
+I (..\..\..\..\src\boards\utilities.h)(0x5B6BE89C)
